@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
+
 var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
@@ -48,11 +49,6 @@ if ( require.main == module ) {
 } else {
     exports.checkHtmlFile = checkHtmlFile;
 }
-
-
-
-
-
 
 
 
